@@ -1,0 +1,32 @@
+2025-09-25 18:08:13 - root - INFO - setup_logging:84 - Logging to file: logs/grnn_grocerieswithres_20250925_180813.log
+2025-09-25 18:08:13 - root - INFO - setup_logging:86 - Logging initialized with level: INFO
+2025-09-25 18:08:13 - __main__ - INFO - main:306 - ============================================================
+2025-09-25 18:08:13 - __main__ - INFO - main:307 - UNIFIED BASKET PREDICTION PIPELINE
+2025-09-25 18:08:13 - __main__ - INFO - main:308 - ============================================================
+2025-09-25 18:08:13 - __main__ - INFO - main:309 - Mode: TRAIN
+2025-09-25 18:08:13 - __main__ - INFO - main:310 - Model variant: GRNN
+2025-09-25 18:08:13 - __main__ - INFO - main:311 - Dataset: grocerieswithres
+2025-09-25 18:08:13 - __main__ - INFO - main:312 - Configuration: configs/grnn_next.yaml
+2025-09-25 18:08:13 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-25 18:08:13 - utils.reproducibility - INFO - ensure_reproducibility:60 - Deterministic behavior enabled
+2025-09-25 18:08:13 - utils.reproducibility - WARNING - ensure_reproducibility:61 - Deterministic mode may reduce performance. Some operations may still be non-deterministic on GPU.
+2025-09-25 18:08:13 - utils.reproducibility - INFO - get_device:89 - Auto-selected device: CPU (CUDA not available)
+2025-09-25 18:08:13 - utils.logger - INFO - log_system_info:16 - System information:
+2025-09-25 18:08:13 - utils.logger - INFO - log_system_info:17 - PyTorch version: 2.8.0
+2025-09-25 18:08:13 - utils.logger - INFO - log_system_info:18 - CUDA available: False
+2025-09-25 18:08:13 - utils.logger - INFO - log_system_info:19 - GPU count: 0
+2025-09-25 18:08:13 - __main__ - INFO - setup_experiment:160 - Creating GRNN data module
+2025-09-25 18:08:13 - data.base_data - INFO - __init__:607 - Initializing data module for variant: grnn
+2025-09-25 18:08:13 - data.base_data - INFO - __init__:608 - Data path: data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket
+2025-09-25 18:08:13 - data.mitgnn_data - INFO - __init__:66 - MITGNN data module initialized with 5 intents, loss_type: bpr
+2025-09-25 18:08:13 - data.grnn_data - INFO - __init__:181 - GRNN data module initialized with LSTM RNN
+2025-09-25 18:08:13 - __main__ - ERROR - main:331 - Pipeline failed with error: Data directory not found: data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket
+Traceback (most recent call last):
+  File "/Users/anitahua/Desktop/DeepLearning/run.py", line 315, in main
+    data_module, trainer, evaluator, device = setup_experiment(config, args)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anitahua/Desktop/DeepLearning/run.py", line 162, in setup_experiment
+    data_module.setup()
+  File "/Users/anitahua/Desktop/DeepLearning/data/base_data.py", line 614, in setup
+    raise FileNotFoundError(f"Data directory not found: {self.data_path}")
+FileNotFoundError: Data directory not found: data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket

@@ -1,0 +1,30 @@
+# TGN Next-Basket Prediction (Compact Config)
+base_config: "base/tgn_base.yaml"
+
+# Override for next-basket task
+data:
+  data_path: "/home/datascience/BasketPrediction/data/DataPreparationandTransformation/multimodal_data/data/multimodalwithres"
+  datagroup: "multimodal"
+  dataset: "multimodal_data_v0"
+  within_basket: false  # Next-basket prediction
+
+model:
+  # Use TF-style price embeddings and dot-product ranking
+  use_price: true
+  prediction_method: "dot_product"  # or "mlp"
+  tgn:
+    temporal_weight: 1.0
+    temporal_normalization: "raw" # raw, minmax, zscore, raw in tf
+    temporal_encoding: "cosine"
+    temporal_dim: 2
+
+evaluation:
+  # Match TF-style evaluation
+  top_k: [10, 20]
+  filter_training_items: true
+  multiple_test_baskets: true
+
+training:
+  early_stopping:
+    enabled: true
+    patience: 10

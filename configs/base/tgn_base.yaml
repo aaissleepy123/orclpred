@@ -1,0 +1,20 @@
+# TGN Base Configuration  
+# Base settings for TGN variants
+
+base_config: "base/mitgnn_base.yaml"
+
+# Model Configuration (TGN extensions)
+model:
+  variant: "tgn"
+  
+  # TGN-specific defaults
+  tgn:
+    temporal_dim: 2
+    temporal_encoding: "cosine"
+    temporal_normalization: "raw"
+    temporal_weight: 1.0
+
+# Data Configuration (TGN paths)
+data:
+  data_path: "/Users/frank.shi/Documents/columbia_project/BasketPrediction/data/tgn" # for frank's laptop
+  # data_path: "/content/torch_archive/data/tgn" # for colab

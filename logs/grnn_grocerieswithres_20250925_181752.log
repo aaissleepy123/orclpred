@@ -1,0 +1,96 @@
+2025-09-25 18:17:52 - root - INFO - setup_logging:84 - Logging to file: logs/grnn_grocerieswithres_20250925_181752.log
+2025-09-25 18:17:52 - root - INFO - setup_logging:86 - Logging initialized with level: INFO
+2025-09-25 18:17:52 - __main__ - INFO - main:306 - ============================================================
+2025-09-25 18:17:52 - __main__ - INFO - main:307 - UNIFIED BASKET PREDICTION PIPELINE
+2025-09-25 18:17:52 - __main__ - INFO - main:308 - ============================================================
+2025-09-25 18:17:52 - __main__ - INFO - main:309 - Mode: TRAIN
+2025-09-25 18:17:52 - __main__ - INFO - main:310 - Model variant: GRNN
+2025-09-25 18:17:52 - __main__ - INFO - main:311 - Dataset: grocerieswithres
+2025-09-25 18:17:52 - __main__ - INFO - main:312 - Configuration: configs/grnn_next.yaml
+2025-09-25 18:17:52 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-25 18:17:52 - utils.reproducibility - INFO - ensure_reproducibility:60 - Deterministic behavior enabled
+2025-09-25 18:17:52 - utils.reproducibility - WARNING - ensure_reproducibility:61 - Deterministic mode may reduce performance. Some operations may still be non-deterministic on GPU.
+2025-09-25 18:17:52 - utils.reproducibility - INFO - get_device:89 - Auto-selected device: CPU (CUDA not available)
+2025-09-25 18:17:52 - utils.logger - INFO - log_system_info:16 - System information:
+2025-09-25 18:17:52 - utils.logger - INFO - log_system_info:17 - PyTorch version: 2.8.0
+2025-09-25 18:17:52 - utils.logger - INFO - log_system_info:18 - CUDA available: False
+2025-09-25 18:17:52 - utils.logger - INFO - log_system_info:19 - GPU count: 0
+2025-09-25 18:17:52 - __main__ - INFO - setup_experiment:160 - Creating GRNN data module
+2025-09-25 18:17:52 - data.base_data - INFO - __init__:607 - Initializing data module for variant: grnn
+2025-09-25 18:17:52 - data.base_data - INFO - __init__:608 - Data path: data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - __init__:66 - MITGNN data module initialized with 5 intents, loss_type: bpr
+2025-09-25 18:17:52 - data.grnn_data - INFO - __init__:181 - GRNN data module initialized with LSTM RNN
+2025-09-25 18:17:52 - data.base_data - INFO - _check_for_timestamps:311 - Detected timestamp format in b2i files
+2025-09-25 18:17:52 - data.base_data - INFO - _load_data:222 - Loaded test user-basket mapping: 2267 users, 2267 test baskets
+2025-09-25 18:17:52 - data.base_data - INFO - _load_data:236 - Wrote basket timestamps to data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket/basket_timestamps.txt
+2025-09-25 18:17:52 - data.base_data - INFO - _load_data:248 - Loaded data: 2267 users, 1668 train baskets, 1757 test baskets
+2025-09-25 18:17:52 - data.base_data - INFO - _build_interaction_matrices:354 - Built interaction matrices
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:362 - Building sequence data for GRNN variant
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:384 - Built sequences for 1578 users
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:389 - Sequence stats: avg=2.49, min=2, max=3
+2025-09-25 18:17:52 - data.base_data - INFO - _prepare_dataset:537 - Prepared 6672 samples for train
+2025-09-25 18:17:52 - data.base_data - INFO - __init__:112 - Dataset initialized: 3885 users, 14609 baskets, 167 items
+2025-09-25 18:17:52 - data.base_data - INFO - _check_for_timestamps:311 - Detected timestamp format in b2i files
+2025-09-25 18:17:52 - data.base_data - INFO - _load_data:222 - Loaded test user-basket mapping: 2267 users, 2267 test baskets
+2025-09-25 18:17:52 - data.base_data - INFO - _load_data:248 - Loaded data: 2267 users, 1668 train baskets, 1757 test baskets
+2025-09-25 18:17:52 - data.base_data - INFO - _build_interaction_matrices:354 - Built interaction matrices
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:362 - Building sequence data for GRNN variant
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:384 - Built sequences for 1578 users
+2025-09-25 18:17:52 - data.base_data - INFO - _build_sequence_data:389 - Sequence stats: avg=2.49, min=2, max=3
+2025-09-25 18:17:52 - data.base_data - INFO - _prepare_dataset:537 - Prepared 3932 samples for test
+2025-09-25 18:17:52 - data.base_data - INFO - __init__:112 - Dataset initialized: 3885 users, 14609 baskets, 167 items
+2025-09-25 18:17:52 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-25 18:17:52 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-25 18:17:52 - data.grnn_data - INFO - _setup_variant_specific:192 - Setting up GRNN-specific data processing
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _setup_variant_specific:77 - Setting up MITGNN-specific data processing
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:182 - Computing normalized adjacency matrices with type: norm
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:191 - Normalizing user-basket matrix...
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:193 - Normalizing basket-item matrix...
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:209 - Caching normalized adjacency matrices...
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:212 - Successfully cached adjacency matrices
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _process_adjacency_matrices:216 - Processed adjacency matrices with type: norm
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _create_combined_adjacency:325 - Creating combined adjacency matrix: 18661 total nodes (3885 users + 14609 baskets + 167 items)
+2025-09-25 18:17:52 - data.mitgnn_data - INFO - _create_combined_adjacency:335 - Adding user-basket connections...
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _create_combined_adjacency:340 - Adding basket-item connections...
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _create_combined_adjacency:346 - Converting to CSR format...
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _create_combined_adjacency:353 - Adding self-loops and normalizing combined matrix...
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _create_combined_adjacency:361 - Created combined adjacency matrix: 18661 total nodes in 1.66s
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _build_user_item_mapping:93 - Building user-item mapping for BPR negative sampling...
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _build_user_item_mapping:105 - Built user-item mapping for 2267 users
+2025-09-25 18:17:54 - data.mitgnn_data - INFO - _setup_variant_specific:89 - MITGNN data setup completed
+2025-09-25 18:17:54 - data.grnn_data - INFO - __init__:65 - Sequential dataset: 1578 users with sequences
+2025-09-25 18:17:54 - data.grnn_data - INFO - __init__:65 - Sequential dataset: 2267 users with sequences
+2025-09-25 18:17:54 - data.grnn_data - INFO - _setup_sequential_data:252 - Sequential data processors created
+2025-09-25 18:17:54 - data.grnn_data - INFO - _analyze_sequences:267 - Sequence statistics:
+2025-09-25 18:17:54 - data.grnn_data - INFO - _analyze_sequences:268 -   Average length: 2.49
+2025-09-25 18:17:54 - data.grnn_data - INFO - _analyze_sequences:269 -   Median length: 2.00
+2025-09-25 18:17:54 - data.grnn_data - INFO - _analyze_sequences:270 -   Min/Max length: 2/3
+2025-09-25 18:17:54 - data.grnn_data - INFO - _analyze_sequences:271 -   Total sequences: 1578
+2025-09-25 18:17:54 - data.grnn_data - INFO - _setup_variant_specific:203 - GRNN data setup completed
+2025-09-25 18:17:54 - data.base_data - INFO - setup:630 - Data module setup completed
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:718 - === DATASET STATISTICS ===
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:719 - Users: 3,885
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:720 - Baskets: 14,609
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:721 - Items: 167
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:722 - Training U2B interactions: 4,612
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:723 - Training B2I interactions: 3,336
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:724 - Test B2I interactions: 3,932
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:725 - U2B sparsity: 0.9999
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:726 - B2I sparsity: 0.9986
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:727 - U2I sparsity: 0.9949
+2025-09-25 18:17:54 - data.base_data - INFO - log_statistics:728 - ===========================
+2025-09-25 18:17:54 - utils.reproducibility - INFO - setup_multi_gpu_environment:213 - Auto-detecting multi-GPU configuration...
+2025-09-25 18:17:54 - utils.reproducibility - INFO - setup_multi_gpu_environment:216 - CUDA not available. Auto-disabling multi-GPU training.
+2025-09-25 18:17:54 - trainer.trainer - INFO - setup_directories:97 - Output directory: pytorch_pipeline/outputs
+2025-09-25 18:17:54 - trainer.trainer - INFO - __init__:84 - Trainer initialized for GRNN variant (single GPU/CPU)
+2025-09-25 18:17:54 - evaluator.prediction_analyzer - INFO - __init__:76 - PredictionAnalyzer initialized (enabled: True)
+2025-09-25 18:17:54 - evaluator.prediction_analyzer - INFO - __init__:78 - Will analyze up to 50 examples
+2025-09-25 18:17:54 - evaluator.prediction_analyzer - INFO - __init__:79 - Will show top-K for K=[5, 10, 20]
+2025-09-25 18:17:54 - evaluator.prediction_analyzer - INFO - __init__:103 - [history] epoch CSV will be written to: pytorch_pipeline/outputs/prediction_analysis/epoch_history_grnn_20250925_181754.csv
+2025-09-25 18:17:54 - evaluator.evaluator - INFO - __init__:72 - Evaluator initialized with metrics: ['recall', 'precision', 'ndcg', 'hit_ratio']
+2025-09-25 18:17:54 - evaluator.evaluator - INFO - __init__:73 - Top-K values: [5, 10, 20, 50]
+2025-09-25 18:17:54 - __main__ - INFO - run_training:186 - ==================================================
+2025-09-25 18:17:54 - __main__ - INFO - run_training:187 - STARTING TRAINING PIPELINE
+2025-09-25 18:17:54 - __main__ - INFO - run_training:188 - ==================================================
+2025-09-25 18:17:54 - __main__ - INFO - run_training:191 - DRY RUN MODE - No actual training will be performed
+2025-09-25 18:17:54 - __main__ - INFO - main:325 - Pipeline completed successfully

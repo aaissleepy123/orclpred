@@ -1,0 +1,35 @@
+# PyTorch and Core Deep Learning
+torch>
+torchvision
+
+# Scientific Computing
+numpy
+scipy
+pandas
+scikit-learn
+
+# Configuration Management
+PyYAML
+pydantic
+
+# Progress and Logging
+tqdm
+tensorboard>=2.8.0
+wandb
+
+# NLP and Text Processing
+transformers
+tokenizers
+
+# Graph Processing
+networkx
+
+# Development and Quality
+black
+isort
+pytest
+pytest-cov
+
+# Optional Visualization
+matplotlib
+seaborn 

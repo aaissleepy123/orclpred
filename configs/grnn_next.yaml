@@ -1,0 +1,11 @@
+# GRNN Next-Basket Prediction (Compact Config)
+base_config: "base/grnn_base.yaml"
+
+# Override only what's different from base
+data:
+  within_basket: false  # Next-basket prediction
+
+# All other settings inherited from:
+# - base/common.yaml (via grnn_base.yaml)
+# - base/mitgnn_base.yaml (via grnn_base.yaml)  
+# - base/grnn_base.yaml

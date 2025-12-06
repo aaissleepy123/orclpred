@@ -1,0 +1,6526 @@
+[
+  {
+    "mode": "test",
+    "user_id": "0",
+    "basket_id": "3",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "0",
+      "64",
+      "4"
+    ],
+    "ground_truth_names": [
+      "0",
+      "64",
+      "4"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "17",
+          "21"
+        ],
+        "hits": [
+          4
+        ],
+        "hit_names": [
+          "4"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [
+          4,
+          0
+        ],
+        "hit_names": [
+          "4",
+          "0"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      },
+      "top_20": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          113,
+          49,
+          11,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "113",
+          "49",
+          "11",
+          "68",
+          "22"
+        ],
+        "hits": [
+          4,
+          0
+        ],
+        "hit_names": [
+          "4",
+          "0"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "2",
+    "basket_id": "12",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "33",
+      "2",
+      "3"
+    ],
+    "ground_truth_names": [
+      "33",
+      "2",
+      "3"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "68",
+          "24"
+        ],
+        "hits": [
+          3,
+          2
+        ],
+        "hit_names": [
+          "3",
+          "2"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "3",
+    "basket_id": "15",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "65",
+      "3",
+      "70"
+    ],
+    "ground_truth_names": [
+      "65",
+      "3",
+      "70"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [
+          3,
+          70
+        ],
+        "hit_names": [
+          "3",
+          "70"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "4",
+    "basket_id": "17",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "84",
+      "28"
+    ],
+    "ground_truth_names": [
+      "84",
+      "28"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "8",
+    "basket_id": "41",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "50",
+      "7"
+    ],
+    "ground_truth_names": [
+      "50",
+      "7"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "9",
+    "basket_id": "45",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "65",
+      "1"
+    ],
+    "ground_truth_names": [
+      "65",
+      "1"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "18",
+    "basket_id": "92",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "49",
+      "18"
+    ],
+    "ground_truth_names": [
+      "49",
+      "18"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125,
+          117,
+          101,
+          162,
+          156,
+          41,
+          92,
+          42,
+          160,
+          116,
+          53
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125",
+          "117",
+          "101",
+          "162",
+          "156",
+          "41",
+          "92",
+          "42",
+          "160",
+          "116",
+          "53"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "27",
+    "basket_id": "134",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "44",
+      "4"
+    ],
+    "ground_truth_names": [
+      "44",
+      "4"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125,
+          101,
+          117,
+          162,
+          156,
+          41,
+          92,
+          42,
+          116,
+          104,
+          160
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125",
+          "101",
+          "117",
+          "162",
+          "156",
+          "41",
+          "92",
+          "42",
+          "116",
+          "104",
+          "160"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "28",
+    "basket_id": "138",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "67",
+      "3"
+    ],
+    "ground_truth_names": [
+      "67",
+      "3"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "22"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "38",
+    "basket_id": "173",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "57",
+      "19",
+      "49"
+    ],
+    "ground_truth_names": [
+      "57",
+      "19",
+      "49"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          1,
+          17
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "1",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          1,
+          17,
+          70,
+          0,
+          21,
+          113,
+          19
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "1",
+          "17",
+          "70",
+          "0",
+          "21",
+          "113",
+          "19"
+        ],
+        "hits": [
+          19
+        ],
+        "hit_names": [
+          "19"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          3,
+          4,
+          37,
+          1,
+          17,
+          70,
+          0,
+          21,
+          113,
+          19,
+          16,
+          73,
+          44,
+          82,
+          24,
+          7,
+          43,
+          23,
+          11,
+          39
+        ],
+        "predicted_names": [
+          "3",
+          "4",
+          "37",
+          "1",
+          "17",
+          "70",
+          "0",
+          "21",
+          "113",
+          "19",
+          "16",
+          "73",
+          "44",
+          "82",
+          "24",
+          "7",
+          "43",
+          "23",
+          "11",
+          "39"
+        ],
+        "hits": [
+          19
+        ],
+        "hit_names": [
+          "19"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "47",
+    "basket_id": "221",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "26",
+      "94"
+    ],
+    "ground_truth_names": [
+      "26",
+      "94"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "61",
+    "basket_id": "282",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "24",
+      "49"
+    ],
+    "ground_truth_names": [
+      "24",
+      "49"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          49
+        ],
+        "hit_names": [
+          "49"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "62",
+    "basket_id": "286",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "0"
+    ],
+    "ground_truth_names": [
+      "0"
+    ],
+    "ground_truth_count": 1,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          0
+        ],
+        "hit_names": [
+          "0"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          0
+        ],
+        "hit_names": [
+          "0"
+        ],
+        "recall": 1.0,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "70",
+    "basket_id": "323",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "27"
+    ],
+    "ground_truth_names": [
+      "1",
+      "27"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "73",
+          "6"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "86",
+    "basket_id": "399",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "21"
+    ],
+    "ground_truth_names": [
+      "1",
+      "21"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          16,
+          6,
+          2
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "16",
+          "6",
+          "2"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          16,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "16",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22",
+          "24"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "88",
+    "basket_id": "406",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "10",
+      "13",
+      "23"
+    ],
+    "ground_truth_names": [
+      "10",
+      "13",
+      "23"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          73,
+          6,
+          2
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "73",
+          "6",
+          "2"
+        ],
+        "hits": [
+          23
+        ],
+        "hit_names": [
+          "23"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22",
+          "24"
+        ],
+        "hits": [
+          23
+        ],
+        "hit_names": [
+          "23"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "95",
+    "basket_id": "440",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "49",
+      "1"
+    ],
+    "ground_truth_names": [
+      "49",
+      "1"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          1,
+          49
+        ],
+        "hit_names": [
+          "1",
+          "49"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "98",
+    "basket_id": "454",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "8",
+      "1"
+    ],
+    "ground_truth_names": [
+      "8",
+      "1"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "108",
+    "basket_id": "500",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "14"
+    ],
+    "ground_truth_names": [
+      "1",
+      "14"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "114",
+    "basket_id": "534",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "18",
+      "10"
+    ],
+    "ground_truth_names": [
+      "18",
+      "10"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [
+          18
+        ],
+        "hit_names": [
+          "18"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "116",
+    "basket_id": "543",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "4",
+      "117"
+    ],
+    "ground_truth_names": [
+      "1",
+      "4",
+      "117"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          3,
+          1,
+          4,
+          37,
+          21
+        ],
+        "predicted_names": [
+          "3",
+          "1",
+          "4",
+          "37",
+          "21"
+        ],
+        "hits": [
+          1,
+          4
+        ],
+        "hit_names": [
+          "1",
+          "4"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.4,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      },
+      "top_10": {
+        "predicted_items": [
+          3,
+          1,
+          4,
+          37,
+          21,
+          0,
+          23,
+          16,
+          73,
+          70
+        ],
+        "predicted_names": [
+          "3",
+          "1",
+          "4",
+          "37",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "70"
+        ],
+        "hits": [
+          1,
+          4
+        ],
+        "hit_names": [
+          "1",
+          "4"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      },
+      "top_20": {
+        "predicted_items": [
+          3,
+          1,
+          4,
+          37,
+          21,
+          0,
+          23,
+          16,
+          73,
+          70,
+          19,
+          2,
+          6,
+          113,
+          69,
+          11,
+          24,
+          18,
+          22,
+          68
+        ],
+        "predicted_names": [
+          "3",
+          "1",
+          "4",
+          "37",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "70",
+          "19",
+          "2",
+          "6",
+          "113",
+          "69",
+          "11",
+          "24",
+          "18",
+          "22",
+          "68"
+        ],
+        "hits": [
+          1,
+          4
+        ],
+        "hit_names": [
+          "1",
+          "4"
+        ],
+        "recall": 0.6666666666666666,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "120",
+    "basket_id": "555",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "65",
+      "83",
+      "107"
+    ],
+    "ground_truth_names": [
+      "65",
+      "83",
+      "107"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "121",
+    "basket_id": "557",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "25",
+      "82"
+    ],
+    "ground_truth_names": [
+      "25",
+      "82"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          3,
+          4,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "4",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          3,
+          4,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "4",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          3,
+          4,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          70,
+          6,
+          19,
+          2,
+          69,
+          113,
+          18,
+          11,
+          24,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "4",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "70",
+          "6",
+          "19",
+          "2",
+          "69",
+          "113",
+          "18",
+          "11",
+          "24",
+          "22"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "129",
+    "basket_id": "601",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "48",
+      "73"
+    ],
+    "ground_truth_names": [
+      "48",
+      "73"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [
+          73
+        ],
+        "hit_names": [
+          "73"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          11,
+          113,
+          68,
+          22,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22",
+          "24"
+        ],
+        "hits": [
+          73
+        ],
+        "hit_names": [
+          "73"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "130",
+    "basket_id": "604",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "16",
+      "2"
+    ],
+    "ground_truth_names": [
+      "16",
+      "2"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [
+          16
+        ],
+        "hit_names": [
+          "16"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68",
+          "24"
+        ],
+        "hits": [
+          16,
+          2
+        ],
+        "hit_names": [
+          "16",
+          "2"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "135",
+    "basket_id": "632",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "8",
+      "2"
+    ],
+    "ground_truth_names": [
+      "8",
+      "2"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68",
+          "24"
+        ],
+        "hits": [
+          2
+        ],
+        "hit_names": [
+          "2"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "144",
+    "basket_id": "678",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "24",
+      "65"
+    ],
+    "ground_truth_names": [
+      "24",
+      "65"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "145",
+    "basket_id": "681",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "68"
+    ],
+    "ground_truth_names": [
+      "1",
+      "68"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          1
+        ],
+        "hit_names": [
+          "1"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          1,
+          68
+        ],
+        "hit_names": [
+          "1",
+          "68"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "155",
+    "basket_id": "738",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1",
+      "21"
+    ],
+    "ground_truth_names": [
+      "1",
+      "21"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          101
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "101"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          101,
+          117,
+          125,
+          162,
+          92,
+          41,
+          42,
+          156,
+          116,
+          160,
+          104
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "101",
+          "117",
+          "125",
+          "162",
+          "92",
+          "41",
+          "42",
+          "156",
+          "116",
+          "160",
+          "104"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "157",
+    "basket_id": "750",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "18",
+      "134",
+      "15"
+    ],
+    "ground_truth_names": [
+      "18",
+      "134",
+      "15"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "22"
+        ],
+        "hits": [
+          18
+        ],
+        "hit_names": [
+          "18"
+        ],
+        "recall": 0.3333333333333333,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "159",
+    "basket_id": "753",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "6",
+      "15"
+    ],
+    "ground_truth_names": [
+      "6",
+      "15"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "160",
+    "basket_id": "755",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "0",
+      "17"
+    ],
+    "ground_truth_names": [
+      "0",
+      "17"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          17
+        ],
+        "hit_names": [
+          "17"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [
+          17,
+          0
+        ],
+        "hit_names": [
+          "17",
+          "0"
+        ],
+        "recall": 1.0,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          17,
+          0
+        ],
+        "hit_names": [
+          "17",
+          "0"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "171",
+    "basket_id": "808",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "49",
+      "17"
+    ],
+    "ground_truth_names": [
+      "49",
+      "17"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          17
+        ],
+        "hit_names": [
+          "17"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          17
+        ],
+        "hit_names": [
+          "17"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          17,
+          49
+        ],
+        "hit_names": [
+          "17",
+          "49"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "172",
+    "basket_id": "811",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "56",
+      "32"
+    ],
+    "ground_truth_names": [
+      "56",
+      "32"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          85,
+          96,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "85",
+          "96",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          85,
+          96,
+          146,
+          115,
+          125,
+          117,
+          162,
+          101,
+          156,
+          41,
+          42,
+          92,
+          160,
+          53,
+          116
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "85",
+          "96",
+          "146",
+          "115",
+          "125",
+          "117",
+          "162",
+          "101",
+          "156",
+          "41",
+          "42",
+          "92",
+          "160",
+          "53",
+          "116"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "173",
+    "basket_id": "815",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "68",
+      "22"
+    ],
+    "ground_truth_names": [
+      "68",
+      "22"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "24"
+        ],
+        "hits": [
+          68
+        ],
+        "hit_names": [
+          "68"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "174",
+    "basket_id": "819",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "24",
+      "17",
+      "26"
+    ],
+    "ground_truth_names": [
+      "24",
+      "17",
+      "26"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          146,
+          85,
+          115,
+          101
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "146",
+          "85",
+          "115",
+          "101"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          146,
+          85,
+          115,
+          101,
+          117,
+          125,
+          162,
+          92,
+          42,
+          156,
+          41,
+          111,
+          60,
+          104
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "146",
+          "85",
+          "115",
+          "101",
+          "117",
+          "125",
+          "162",
+          "92",
+          "42",
+          "156",
+          "41",
+          "111",
+          "60",
+          "104"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "176",
+    "basket_id": "826",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "18",
+      "21"
+    ],
+    "ground_truth_names": [
+      "18",
+      "21"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          23,
+          21,
+          0,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "23",
+          "21",
+          "0",
+          "16",
+          "6"
+        ],
+        "hits": [
+          21
+        ],
+        "hit_names": [
+          "21"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          23,
+          21,
+          0,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "23",
+          "21",
+          "0",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          21,
+          18
+        ],
+        "hit_names": [
+          "21",
+          "18"
+        ],
+        "recall": 1.0,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 2
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "177",
+    "basket_id": "829",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "48",
+      "3"
+    ],
+    "ground_truth_names": [
+      "48",
+      "3"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          16,
+          73,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68",
+          "22"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "178",
+    "basket_id": "832",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "28",
+      "4"
+    ],
+    "ground_truth_names": [
+      "28",
+      "4"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          4
+        ],
+        "hit_names": [
+          "4"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          4
+        ],
+        "hit_names": [
+          "4"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68"
+        ],
+        "hits": [
+          4
+        ],
+        "hit_names": [
+          "4"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "182",
+    "basket_id": "854",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "17",
+      "37"
+    ],
+    "ground_truth_names": [
+      "17",
+      "37"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          101
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "101"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          101,
+          125,
+          117,
+          162,
+          92,
+          42,
+          156,
+          111,
+          41,
+          104,
+          53
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "101",
+          "125",
+          "117",
+          "162",
+          "92",
+          "42",
+          "156",
+          "111",
+          "41",
+          "104",
+          "53"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "183",
+    "basket_id": "858",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "8",
+      "70"
+    ],
+    "ground_truth_names": [
+      "8",
+      "70"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125,
+          117,
+          101,
+          162,
+          92,
+          41,
+          156,
+          42,
+          160,
+          116,
+          53
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125",
+          "117",
+          "101",
+          "162",
+          "92",
+          "41",
+          "156",
+          "42",
+          "160",
+          "116",
+          "53"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "185",
+    "basket_id": "869",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "44",
+      "13"
+    ],
+    "ground_truth_names": [
+      "44",
+      "13"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          70,
+          49,
+          18,
+          11,
+          113,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "70",
+          "49",
+          "18",
+          "11",
+          "113",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "186",
+    "basket_id": "873",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "1"
+    ],
+    "ground_truth_names": [
+      "1"
+    ],
+    "ground_truth_count": 1,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125,
+          162,
+          101,
+          156,
+          41,
+          92,
+          42,
+          53,
+          160,
+          104,
+          116
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125",
+          "162",
+          "101",
+          "156",
+          "41",
+          "92",
+          "42",
+          "53",
+          "160",
+          "104",
+          "116"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "189",
+    "basket_id": "890",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "59",
+      "14"
+    ],
+    "ground_truth_names": [
+      "59",
+      "14"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          11,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "11",
+          "68",
+          "24"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "190",
+    "basket_id": "894",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "3",
+      "44"
+    ],
+    "ground_truth_names": [
+      "3",
+      "44"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.2,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          70,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "70",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [
+          3
+        ],
+        "hit_names": [
+          "3"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "191",
+    "basket_id": "896",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "8",
+      "52"
+    ],
+    "ground_truth_names": [
+      "8",
+      "52"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          6,
+          73,
+          2,
+          19,
+          69,
+          49,
+          18,
+          113,
+          11,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "6",
+          "73",
+          "2",
+          "19",
+          "69",
+          "49",
+          "18",
+          "113",
+          "11",
+          "68",
+          "24"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "194",
+    "basket_id": "911",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "82",
+      "68",
+      "22"
+    ],
+    "ground_truth_names": [
+      "82",
+      "68",
+      "22"
+    ],
+    "ground_truth_count": 3,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          54,
+          134,
+          132,
+          105,
+          150,
+          96,
+          85,
+          146,
+          115,
+          125,
+          117,
+          162,
+          101,
+          156,
+          41,
+          92,
+          42,
+          53,
+          160,
+          116
+        ],
+        "predicted_names": [
+          "54",
+          "134",
+          "132",
+          "105",
+          "150",
+          "96",
+          "85",
+          "146",
+          "115",
+          "125",
+          "117",
+          "162",
+          "101",
+          "156",
+          "41",
+          "92",
+          "42",
+          "53",
+          "160",
+          "116"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "196",
+    "basket_id": "920",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "8",
+      "51"
+    ],
+    "ground_truth_names": [
+      "8",
+      "51"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "199",
+    "basket_id": "938",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "33",
+      "21"
+    ],
+    "ground_truth_names": [
+      "33",
+      "21"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [
+          21
+        ],
+        "hit_names": [
+          "21"
+        ],
+        "recall": 0.5,
+        "precision": 0.1,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          19,
+          69,
+          70,
+          18,
+          49,
+          113,
+          11,
+          68,
+          24
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "19",
+          "69",
+          "70",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68",
+          "24"
+        ],
+        "hits": [
+          21
+        ],
+        "hit_names": [
+          "21"
+        ],
+        "recall": 0.5,
+        "precision": 0.05,
+        "hit_ratio": 1.0,
+        "num_hits": 1
+      }
+    }
+  },
+  {
+    "mode": "test",
+    "user_id": "200",
+    "basket_id": "941",
+    "epoch": 69,
+    "loss_value": null,
+    "ground_truth": [
+      "59",
+      "44"
+    ],
+    "ground_truth_names": [
+      "59",
+      "44"
+    ],
+    "ground_truth_count": 2,
+    "ranking_analysis": {
+      "top_5": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_10": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      },
+      "top_20": {
+        "predicted_items": [
+          1,
+          4,
+          3,
+          37,
+          17,
+          21,
+          0,
+          23,
+          16,
+          73,
+          6,
+          2,
+          19,
+          69,
+          18,
+          49,
+          113,
+          11,
+          68,
+          22
+        ],
+        "predicted_names": [
+          "1",
+          "4",
+          "3",
+          "37",
+          "17",
+          "21",
+          "0",
+          "23",
+          "16",
+          "73",
+          "6",
+          "2",
+          "19",
+          "69",
+          "18",
+          "49",
+          "113",
+          "11",
+          "68",
+          "22"
+        ],
+        "hits": [],
+        "hit_names": [],
+        "recall": 0.0,
+        "precision": 0.0,
+        "hit_ratio": 0.0,
+        "num_hits": 0
+      }
+    }
+  }
+]

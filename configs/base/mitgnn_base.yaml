@@ -1,0 +1,24 @@
+# MITGNN Base Configuration
+# Base settings for MITGNN and its extensions (GRNN, TGN)
+
+base_config: "base/common.yaml"
+
+# Model Configuration (MITGNN defaults)
+model:
+  variant: "mitgnn"
+  embed_size: 64
+  layer_sizes: [64, 64, 64]
+  adj_type: "norm"
+  alg_type: "intent_conv"
+  num_intent: 5
+  sigma: 0.9
+  
+  # Prediction configuration (original-style)
+  prediction_method: "dot_product"
+  use_explicit_regularization: true
+  regularization_weight: 0.001
+
+# Data Configuration (MITGNN paths)
+data:
+  data_path: "/Users/frank.shi/Documents/columbia_project/BasketPrediction/data/mitgnn" # for frank's laptop
+  # data_path: "/content/torch_archive/data/mitgnn" # for colab

@@ -1,0 +1,11 @@
+# GRNN Within-Basket Prediction (Compact Config)
+base_config: "base/grnn_base.yaml"
+
+# Override settings for within-basket task
+data:
+  within_basket: true  # Within-basket prediction
+
+model:
+  grnn:
+    sequence_max_length: 15  # Longer sequences for within-basket
+    sequential_weight: 2.0   # Higher weight for item order within baskets

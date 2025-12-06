@@ -1,0 +1,32 @@
+# GRNN Within-Basket Prediction (Compact Config)
+base_config: "base/grnn_base.yaml"
+
+# Override settings for within-basket task
+data:
+  data_path: "/home/datascience/BasketPrediction/data/DataPreparationandTransformation/groceries_data/data/grocerieswithres"
+  datagroup: "within_basket"
+  within_basket: true  # Within-basket prediction
+
+model:
+  grnn:
+    sequence_max_length: 15  # Longer sequences for within-basket
+    sequential_weight: 2.0   # Higher weight for item order within baskets
+  embed_size: 256
+  layer_sizes: [256, 256, 256]
+training:
+  lr: 0.00003                        
+  epochs: 200                          
+  weight_decay: 1e-4
+  dropout: 0.2
+evaluation:
+  prediction_analysis:
+    enabled: true
+    save_history: true
+
+# All other settings inherited from base configs:
+# - Common settings from base/common.yaml
+# - MITGNN settings from base/mitgnn_base.yaml
+# All other settings inherited from:
+# - base/common.yaml (via grnn_base.yaml)
+# - base/mitgnn_base.yaml (via grnn_base.yaml)  
+# - base/grnn_base.yaml

@@ -1,0 +1,168 @@
+item_no	itemDescription
+0	tropical fruit
+1	whole milk
+2	pip fruit
+3	other vegetables
+4	rolls/buns
+5	pot plants
+6	citrus fruit
+7	beef
+8	frankfurter
+9	chicken
+10	butter
+11	fruit/vegetable juice
+12	packaged fruit/vegetables
+13	chocolate
+14	specialty bar
+15	butter milk
+16	bottled water
+17	yogurt
+18	sausage
+19	brown bread
+20	hamburger meat
+21	root vegetables
+22	pork
+23	pastry
+24	canned beer
+25	berries
+26	coffee
+27	misc. beverages
+28	ham
+29	turkey
+30	curd cheese
+31	red/blush wine
+32	frozen potato products
+33	flour
+34	sugar
+35	frozen meals
+36	herbs
+37	soda
+38	detergent
+39	grapes
+40	processed cheese
+41	fish
+42	sparkling wine
+43	newspapers
+44	curd
+45	pasta
+46	popcorn
+47	finished products
+48	beverages
+49	bottled beer
+50	dessert
+51	dog food
+52	specialty chocolate
+53	condensed milk
+54	cleaner
+55	white wine
+56	meat
+57	ice cream
+58	hard cheese
+59	cream cheese 
+60	liquor
+61	pickled vegetables
+62	liquor (appetizer)
+63	UHT-milk
+64	candy
+65	onions
+66	hair spray
+67	photo/film
+68	domestic eggs
+69	margarine
+70	shopping bags
+71	salt
+72	oil
+73	whipped/sour cream
+74	frozen vegetables
+75	sliced cheese
+76	dish cleaner
+77	baking powder
+78	specialty cheese
+79	salty snack
+80	Instant food products
+81	pet care
+82	white bread
+83	female sanitary products
+84	cling film/bags
+85	soap
+86	frozen chicken
+87	house keeping products
+88	spread cheese
+89	decalcifier
+90	frozen dessert
+91	vinegar
+92	nuts/prunes
+93	potato products
+94	frozen fish
+95	hygiene articles
+96	artif. sweetener
+97	light bulbs
+98	canned vegetables
+99	chewing gum
+100	canned fish
+101	cookware
+102	semi-finished bread
+103	cat food
+104	bathroom cleaner
+105	prosecco
+106	liver loaf
+107	zwieback
+108	canned fruit
+109	frozen fruits
+110	brandy
+111	baby cosmetics
+112	spices
+113	napkins
+114	waffles
+115	sauces
+116	rum
+117	chocolate marshmallow
+118	long life bakery product
+119	bags
+120	sweet spreads
+121	soups
+122	mustard
+123	specialty fat
+124	instant coffee
+125	snack products
+126	organic sausage
+127	soft cheese
+128	mayonnaise
+129	dental care
+130	roll products 
+131	kitchen towels
+132	flower soil/fertilizer
+133	cereals
+134	meat spreads
+135	dishes
+136	male cosmetics
+137	candles
+138	whisky
+139	tidbits
+140	cooking chocolate
+141	seasonal products
+142	liqueur
+143	abrasive cleaner
+144	syrup
+145	ketchup
+146	cream
+147	skin care
+148	rubbing alcohol
+149	nut snack
+150	cocoa drinks
+151	softener
+152	organic products
+153	cake bar
+154	honey
+155	jam
+156	kitchen utensil
+157	flower (seeds)
+158	rice
+159	tea
+160	salad dressing
+161	specialty vegetables
+162	pudding powder
+163	ready soups
+164	make up remover
+165	toilet cleaner
+166	preservation products

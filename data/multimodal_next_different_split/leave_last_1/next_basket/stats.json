@@ -1,0 +1,8 @@
+{
+  "train_baskets": 257242,
+  "test_baskets": 22765,
+  "train_users": 37341,
+  "test_users": 22765,
+  "avg_items_per_basket_train": 2.1817471485993734,
+  "avg_items_per_basket_test": 2.1649022622446736
+}

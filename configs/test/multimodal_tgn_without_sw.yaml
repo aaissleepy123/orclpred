@@ -1,0 +1,12 @@
+# TGN Next-Basket Prediction (Compact Config)
+base_config: "base/tgn_base.yaml"
+
+# Override only what's different from base
+data:
+  data_path: "/home/datascience/BasketPrediction/data/DataPreparationandTransformation/multimodal_data/data/multimodalwithres"
+  within_basket: false  # Next-basket prediction
+evaluation:
+  prediction_analysis:
+    enabled: true
+    save_history: true
+# All TGN settings inherited from base/tgn_base.yaml

@@ -1,0 +1,10 @@
+# TGN Within-Basket Prediction (Compact Config)
+base_config: "base/tgn_base.yaml"
+
+# Override for within-basket task
+data:
+  within_basket: true  # Within-basket prediction
+
+model:
+  tgn:
+    temporal_weight: 0.5  # Lower temporal weight for within-basket

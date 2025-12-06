@@ -1,0 +1,127 @@
+# Common Base Configuration
+# Shared settings across all model variants
+
+# Training Configuration (common defaults)
+training:
+  lr: 0.0001
+  weight_decay: 0.0
+  epochs: 200
+  test_start_epoch: 10
+  loss_type: "bpr"  # BPR loss for all variants
+  dropout: 0.1
+  node_dropout: 0.1
+  message_dropout: 0.1
+  verbose: 1
+  early_stopping:
+    enabled: true
+    patience: 50
+    metric: "recall@20"
+    min_delta: 0.001
+  save_checkpoints: true
+  checkpoint_frequency: 50
+  # Training metrics visibility 
+  compute_train_metrics: true  # Compute ranking metrics on training set during training
+  
+  # Learning Rate Scheduler Configuration
+  scheduler:
+    enabled: true
+    type: "warmup_cosine"
+    warmup_epochs: 5      # Linear warm-up for first 10 epochs
+    eta_min: 0.00001       # Minimum learning rate (1e-5)
+    
+    # # Step scheduler options
+    # step_size: 50
+    # gamma: 0.8
+    
+    # Alternative scheduler examples (uncomment and modify as needed):
+    
+    # # Warm-up Cosine Annealing (recommended for deep learning)
+    # type: "warmup_cosine"
+    # warmup_epochs: 5
+    # eta_min: 0.00001  # minimum learning rate
+    
+    # # Multi-step scheduler
+    # type: "multistep"
+    # milestones: [50, 100, 150]
+    # gamma: 0.1
+    
+    # # Cosine annealing with restarts
+    # type: "cosine_restart"
+    # T_0: 3            # epochs for first restart
+    # T_mult: 1          # restart period multiplier
+    # warmup_epochs: 1   # optional warm-up
+    # eta_min: 1e-6
+    
+    # # Reduce on plateau (metric-based)
+    # type: "plateau"
+    # mode: "max"        # 'max' for metrics like recall, 'min' for loss
+    # factor: 0.5        # reduction factor
+    # patience: 10       # epochs to wait before reducing
+    # metric: "recall@20"  # metric to monitor
+    # min_lr: 0.00001
+    
+    # # Polynomial decay
+    # type: "polynomial"
+    # power: 1.0         # 1.0 = linear decay
+    # warmup_epochs: 5
+    # eta_min: 0
+
+# Evaluation Configuration (common)
+evaluation:
+  metrics: ["recall", "precision", "ndcg", "hit_ratio"]
+  top_k: [5, 10, 20, 50]
+  test_batch_size: 1000
+  eval_frequency: 1
+  multiple_test_baskets: true
+  aggregation_method: "user_level"
+  # Enable prediction analysis for visibility
+  prediction_analysis:
+    enabled: true  # Enable model prediction visibility
+    max_examples: 50  # Analyze up to 50 examples
+    top_k_show: [5, 10, 20]  # Show predictions for these K values
+    save_to_file: true  # Save detailed analysis to files
+    show_item_names: true  # Show readable item names if available
+    save_raw_scores: false  # Save raw prediction scores (can be large)
+    save_loss_per_example: true  # Save loss value per example
+    save_histry: false # save metric history
+
+
+# System Configuration (common)
+system:
+  device: "auto"
+  seed: 123
+  deterministic: true
+  log_level: "INFO"
+  log_to_file: true
+  log_dir: "logs"
+  tensorboard:
+    enabled: true
+    log_dir: "outputs/tensorboard"
+  cache_dir: "cache"
+  
+  # Multi-GPU Configuration (auto-detection enabled by default)
+  multi_gpu:
+    enabled: "auto"                  # Auto-enable if 2+ GPUs available
+    strategy: "data_parallel"        # Use DataParallel for single-node multi-GPU
+    device_ids: null                 # Use all available GPUs (auto-detected)
+    output_device: null              # Use GPU 0 as primary (auto-selected)
+
+# Data Configuration (common defaults)
+data:
+  #datagroup: "grocery"
+  #dataset: "groceries_data_v0"
+  batch_size: 256
+  num_workers: 4
+  pin_memory: true
+  # Sliding-window defaults (applies to all variants; variants may use subsets)
+  sliding_window:
+    enabled: false
+    length: 5
+    stride: 1
+    mode: "baskets"        # "baskets" or "days" (requires timestamps)
+    include_current_basket: false  # must be false for within-basket to avoid leakage
+    aggregates:
+      enabled: true
+      features: ["num_baskets", "num_unique_items", "avg_items_per_basket", "time_since_last", "median_time_gap"]
+      decay_alpha: 0.8
+      max_windows_per_user: 10

@@ -1,0 +1,8 @@
+# TGN Next-Basket Prediction (Compact Config)
+base_config: "base/tgn_base.yaml"
+
+# Override only what's different from base
+data:
+  within_basket: false  # Next-basket prediction
+
+# All TGN settings inherited from base/tgn_base.yaml

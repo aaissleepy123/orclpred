@@ -1,0 +1,28 @@
+# GRNN Next-Basket Prediction (Compact Config)
+base_config: "base/grnn_base.yaml"
+
+# Override only what's different from base
+data:
+  data_path: "/home/datascience/BasketPrediction/data/DataPreparationandTransformation/groceries_data/data/grocerieswithres"
+  datagroup: "next_basket"
+  within_basket: false  # Next-basket prediction
+  
+training:
+  lr: 0.00003                        
+  epochs: 200                          
+  weight_decay: 1e-4
+  dropout: 0.2
+evaluation:
+  prediction_analysis:
+    enabled: true
+    save_history: true
+model: 
+  embed_size: 256
+  layer_sizes: [256, 256, 256]
+# All other settings inherited from base configs:
+# - Common settings from base/common.yaml
+# - MITGNN settings from base/mitgnn_base.yaml
+# All other settings inherited from:
+# - base/common.yaml (via grnn_base.yaml)
+# - base/mitgnn_base.yaml (via grnn_base.yaml)  
+# - base/grnn_base.yaml

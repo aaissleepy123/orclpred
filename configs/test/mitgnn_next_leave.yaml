@@ -1,0 +1,39 @@
+model:
+  variant: mitgnn
+  adj_type: lap
+  alg_type: intent_conv
+  num_intent: 5
+  sigma: 0.9
+  prediction_method: dot_product
+  use_explicit_regularization: true
+  regularization_weight: 0.001
+  embed_size: 256
+  layer_sizes: [256,256,256]
+
+data:
+  data_path: "/content/BasketPrediction/data/DataPreparationandTransformation/groceries_data/data/grocerieswithres"
+  datagroup: "leave_last_1/next_basket"
+  dataset: "grocerieswithres"
+  within_basket: false
+  batch_size: 256
+  num_workers: 4
+  pin_memory: true
+
+training:
+  lr: 0.0003
+  epochs: 200
+  weight_decay: 0.0
+  loss_type: "bpr"
+  compute_train_metrics: true
+  save_checkpoints: true
+  checkpoint_frequency: 50
+  early_stopping:
+    enabled: false
+
+evaluation:
+  prediction_analysis:
+    enabled: true
+    save_history: true
+
+paths:
+  output_dir: "/content/drive/MyDrive/Summer_2025/Test/exp_runs/exp_mitgnn_100_random20"  # in Mika's tap, please change this

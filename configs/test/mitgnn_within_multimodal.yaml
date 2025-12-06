@@ -1,0 +1,15 @@
+# MITGNN Within-Basket Prediction (Compact Config)
+base_config: "base/mitgnn_base.yaml"
+
+# Override only what's different from base
+data:
+  within_basket: true  # Within-basket prediction
+
+# Enable training metrics
+training:
+  compute_train_metrics: true
+
+# All other settings inherited from base configs
+data:
+  datagroup: "multimodal"
+  dataset: "multimodal_data_v0"

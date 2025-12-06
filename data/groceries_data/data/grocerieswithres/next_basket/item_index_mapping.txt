@@ -1,0 +1,168 @@
+item_no	itemDescription
+0	Fruits: tropical fruit
+1	Dairy: whole milk
+2	Fruits: pip fruit
+3	Vegetables: other vegetables
+4	Bread and Bakery: rolls/buns
+5	Household: pot plants
+6	Fruits: citrus fruit
+7	Meat: beef
+8	Meat: frankfurter
+9	Meat: chicken
+10	Dairy: butter
+11	Beverages: fruit/vegetable juice
+12	Canned Goods: packaged fruit/vegetables
+13	Snacks: chocolate
+14	Snacks: specialty bar
+15	Dairy: butter milk
+16	Beverages: bottled water
+17	Dairy: yogurt
+18	Meat: sausage
+19	Bread and Bakery: brown bread
+20	Meat: hamburger meat
+21	Vegetables: root vegetables
+22	Meat: pork
+23	Bread and Bakery: pastry
+24	Beverages: canned beer
+25	Fruits: berries
+26	Beverages: coffee
+27	Beverages: miscellaneous beverages
+28	Deli: ham
+29	Meat: turkey
+30	Dairy: curd cheese
+31	Beverages: red/blush wine
+32	Frozen Food: frozen potato products
+33	Baking: flour
+34	Spices: sugar
+35	Frozen Food: frozen meals
+36	Herbs: herbs
+37	Beverages: soda
+38	Cleaning: detergent
+39	Fruits: grapes
+40	Dairy: processed cheese
+41	Fish and Seafood: fish
+42	Beverages: sparkling wine
+43	Household: newspapers
+44	Dairy: curd
+45	Pasta, Rice and Cereal: pasta
+46	Snacks: popcorn
+47	Deli: finished products
+48	Beverages: beverages
+49	Beverages: bottled beer
+50	Bread and Bakery: dessert
+51	Pet Care: dog food
+52	Snacks: specialty chocolate
+53	Dairy: condensed milk
+54	Cleaning: cleaner
+55	Beverages: white wine
+56	Meat: meat
+57	Frozen: ice cream
+58	Dairy: hard cheese
+59	Dairy: cream cheese 
+60	Beverages: liquor
+61	Canned Goods: pickled vegetables
+62	Beverages: liquor (appetizer)
+63	Dairy: UHT-milk
+64	Snacks: candy
+65	Vegetables: onions
+66	Personal Care: hair spray
+67	Household: photo/film
+68	Dairy: domestic eggs
+69	Dairy Alternative: margarine
+70	Household: shopping bags
+71	Spices: salt
+72	Sauces and condiments: oil
+73	Dairy: whipped/sour cream
+74	Frozen Food: frozen vegetables
+75	Dairy: sliced cheese
+76	Household: dish cleaner
+77	Baking: baking powder
+78	Dairy: specialty cheese
+79	Snack: salty snack
+80	Canned Goods: Instant food products
+81	Pet Care: pet care
+82	Bread and Bakery: white bread
+83	Personal Care: female sanitary products
+84	Household: cling film/bags
+85	Personal Care: soap
+86	Frozen Food: frozen chicken
+87	Household: house keeping products
+88	Dairy: spread cheese
+89	Household: decalcifier
+90	Frozen Food: frozen dessert
+91	Sauces and Condiments: vinegar
+92	Snacks: nuts/prunes
+93	Vegetables: potato products
+94	Frozen Food: frozen fish
+95	Personal Care: hygiene articles
+96	Sauces and Condiments: artificial sweetener
+97	Household: light bulbs
+98	Canned Goods: canned vegetables
+99	Snacks: chewing gum
+100	Canned Goods: canned fish
+101	Household: cookware
+102	Bread and Bakery: semi-finished bread
+103	Pet Care: cat food
+104	Cleaning: bathroom cleaner
+105	Beverages: prosecco
+106	Deli: liver loaf
+107	Bread and Bakery: zwieback
+108	Canned Goods: canned fruit
+109	Frozen Food: frozen fruits
+110	Beverages: brandy
+111	Baby Products: baby cosmetics
+112	Spices and Condiments: spices
+113	Household: napkins
+114	Bread and Bakery: waffles
+115	Spices and Condiments: sauces
+116	Beverages: rum
+117	Snacks: chocolate marshmallow
+118	Bread and Bakery: long life bakery product
+119	Household: bags
+120	Sauces and Condiments: sweet spreads
+121	Canned Goods: soups
+122	Sauces and Condiments: mustard
+123	Sauces and Condiments: specialty fat
+124	Beverages: instant coffee
+125	Snacks: snack products
+126	Meat: organic sausage
+127	Dairy: soft cheese
+128	Sauces and Condiments: mayonnaise
+129	Personal Care: dental care
+130	Bread and Bakery: roll products 
+131	Household: kitchen towels
+132	Household: flower soil/fertilizer
+133	Pasta, rice, and cereals: cereals
+134	Sauces and Condiments: meat spreads
+135	Household: dishes
+136	Personal Care: male cosmetics
+137	Household: candles
+138	Beverages: whisky
+139	Snacks: tidbits
+140	Baking: cooking chocolate
+141	Fruits, Vegetables: seasonal products
+142	Beverages: liqueur
+143	Cleaning: abrasive cleaner
+144	Sauces and Condiments: syrup
+145	Sauces and Condiments: ketchup
+146	Dairy: cream
+147	Personal Care: skin care
+148	Health Care: rubbing alcohol
+149	Snacks: nut snack
+150	Beverages: cocoa drinks
+151	Household: softener
+152	Fruits, Vegetables: organic products
+153	Bread and Bakery: cake bar
+154	Sauces and Condiments: honey
+155	Sauces and Condiments: jam
+156	Household: kitchen utensil
+157	Household: flower (seeds)
+158	Pasta, rice, and cereals: rice
+159	Beverages: tea
+160	Sauces and Condiments: salad dressing
+161	Vegetables: specialty vegetables
+162	Baking: pudding powder
+163	Canned Goods: ready soups
+164	Personal Care: make up remover
+165	Household: toilet cleaner
+166	Canned Goods: preservation products

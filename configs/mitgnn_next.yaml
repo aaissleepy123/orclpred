@@ -1,0 +1,10 @@
+# MITGNN Next-Basket Prediction (Compact Config)
+base_config: "base/mitgnn_base.yaml"
+
+# Override only what's different from base
+data:
+  within_basket: false  # Next-basket prediction
+
+# All other settings inherited from base configs:
+# - Common settings from base/common.yaml
+# - MITGNN settings from base/mitgnn_base.yaml

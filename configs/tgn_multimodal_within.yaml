@@ -1,0 +1,37 @@
+# TGN Within-Basket Prediction (Compact Config)
+base_config: "base/tgn_base.yaml"
+
+# Override for within-basket task
+data:
+  data_path: "/content/BasketPrediction/data/tgn"
+  datagroup: "multimodal"
+  dataset: "multimodal_data_v0"
+  within_basket: true  # Within-basket prediction
+
+model:
+  # Use TF-style price embeddings and dot-product ranking
+  use_price: true
+  prediction_method: "dot_product"
+  tgn:
+    temporal_weight: 0.5  # Lower temporal weight for within-basket
+    temporal_normalization: "minmax" # raw, minmax, zscore, raw in tf
+    temporal_encoding: "cosine"
+    temporal_dim: 2
+  embed_size: 128
+  layer_sizes: [128, 128, 128]
+  adj_type: "norm"
+  alg_type: "intent_conv"
+  num_intent: 9
+
+evaluation:
+  # Match TF-style evaluation
+  top_k: [10, 20]
+  filter_training_items: true
+  multiple_test_baskets: true
+
+training:
+  lr: 0.0002
+  weight_decay: 1e-5
+  early_stopping:
+    enabled: true
+    patience: 10

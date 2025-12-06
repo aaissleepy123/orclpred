@@ -1,0 +1,224 @@
+2025-09-27 10:08:22 - root - INFO - setup_logging:84 - Logging to file: logs/grnn_grocerieswithres_20250927_100822.log
+2025-09-27 10:08:22 - root - INFO - setup_logging:86 - Logging initialized with level: INFO
+2025-09-27 10:08:22 - __main__ - INFO - main:306 - ============================================================
+2025-09-27 10:08:22 - __main__ - INFO - main:307 - UNIFIED BASKET PREDICTION PIPELINE
+2025-09-27 10:08:22 - __main__ - INFO - main:308 - ============================================================
+2025-09-27 10:08:22 - __main__ - INFO - main:309 - Mode: TEST
+2025-09-27 10:08:22 - __main__ - INFO - main:310 - Model variant: GRNN
+2025-09-27 10:08:22 - __main__ - INFO - main:311 - Dataset: grocerieswithres
+2025-09-27 10:08:22 - __main__ - INFO - main:312 - Configuration: configs/grnn_next.yaml
+2025-09-27 10:08:22 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-27 10:08:22 - utils.reproducibility - INFO - ensure_reproducibility:60 - Deterministic behavior enabled
+2025-09-27 10:08:22 - utils.reproducibility - WARNING - ensure_reproducibility:61 - Deterministic mode may reduce performance. Some operations may still be non-deterministic on GPU.
+2025-09-27 10:08:22 - utils.reproducibility - INFO - get_device:89 - Auto-selected device: CPU (CUDA not available)
+2025-09-27 10:08:22 - utils.logger - INFO - log_system_info:16 - System information:
+2025-09-27 10:08:22 - utils.logger - INFO - log_system_info:17 - PyTorch version: 2.8.0
+2025-09-27 10:08:22 - utils.logger - INFO - log_system_info:18 - CUDA available: False
+2025-09-27 10:08:22 - utils.logger - INFO - log_system_info:19 - GPU count: 0
+2025-09-27 10:08:22 - __main__ - INFO - setup_experiment:160 - Creating GRNN data module
+2025-09-27 10:08:22 - data.base_data - INFO - __init__:607 - Initializing data module for variant: grnn
+2025-09-27 10:08:22 - data.base_data - INFO - __init__:608 - Data path: data/multimodal_next_different_split/user_holdout_20/groceries_data/grocerieswithres/next_basket
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - __init__:66 - MITGNN data module initialized with 5 intents, loss_type: bpr
+2025-09-27 10:08:22 - data.grnn_data - INFO - __init__:181 - GRNN data module initialized with LSTM RNN
+2025-09-27 10:08:22 - data.base_data - INFO - _check_for_timestamps:311 - Detected timestamp format in b2i files
+2025-09-27 10:08:22 - data.base_data - INFO - _load_data:222 - Loaded test user-basket mapping: 2267 users, 2267 test baskets
+2025-09-27 10:08:22 - data.base_data - INFO - _load_data:248 - Loaded data: 2267 users, 1668 train baskets, 1757 test baskets
+2025-09-27 10:08:22 - data.base_data - INFO - _build_interaction_matrices:354 - Built interaction matrices
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:362 - Building sequence data for GRNN variant
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:384 - Built sequences for 1578 users
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:389 - Sequence stats: avg=2.49, min=2, max=3
+2025-09-27 10:08:22 - data.base_data - INFO - _prepare_dataset:537 - Prepared 6672 samples for train
+2025-09-27 10:08:22 - data.base_data - INFO - __init__:112 - Dataset initialized: 3885 users, 14609 baskets, 167 items
+2025-09-27 10:08:22 - data.base_data - INFO - _check_for_timestamps:311 - Detected timestamp format in b2i files
+2025-09-27 10:08:22 - data.base_data - INFO - _load_data:222 - Loaded test user-basket mapping: 2267 users, 2267 test baskets
+2025-09-27 10:08:22 - data.base_data - INFO - _load_data:248 - Loaded data: 2267 users, 1668 train baskets, 1757 test baskets
+2025-09-27 10:08:22 - data.base_data - INFO - _build_interaction_matrices:354 - Built interaction matrices
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:362 - Building sequence data for GRNN variant
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:384 - Built sequences for 1578 users
+2025-09-27 10:08:22 - data.base_data - INFO - _build_sequence_data:389 - Sequence stats: avg=2.49, min=2, max=3
+2025-09-27 10:08:22 - data.base_data - INFO - _prepare_dataset:537 - Prepared 3932 samples for test
+2025-09-27 10:08:22 - data.base_data - INFO - __init__:112 - Dataset initialized: 3885 users, 14609 baskets, 167 items
+2025-09-27 10:08:22 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-27 10:08:22 - utils.reproducibility - INFO - set_random_seed:34 - Random seed set to: 123
+2025-09-27 10:08:22 - data.grnn_data - INFO - _setup_variant_specific:192 - Setting up GRNN-specific data processing
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - _setup_variant_specific:77 - Setting up MITGNN-specific data processing
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - _process_adjacency_matrices:172 - Loading cached normalized adjacency matrices...
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - _process_adjacency_matrices:176 - Successfully loaded cached adjacency matrices
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - _create_combined_adjacency:325 - Creating combined adjacency matrix: 18661 total nodes (3885 users + 14609 baskets + 167 items)
+2025-09-27 10:08:22 - data.mitgnn_data - INFO - _create_combined_adjacency:335 - Adding user-basket connections...
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _create_combined_adjacency:340 - Adding basket-item connections...
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _create_combined_adjacency:346 - Converting to CSR format...
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _create_combined_adjacency:353 - Adding self-loops and normalizing combined matrix...
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _create_combined_adjacency:361 - Created combined adjacency matrix: 18661 total nodes in 1.64s
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _build_user_item_mapping:93 - Building user-item mapping for BPR negative sampling...
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _build_user_item_mapping:105 - Built user-item mapping for 2267 users
+2025-09-27 10:08:24 - data.mitgnn_data - INFO - _setup_variant_specific:89 - MITGNN data setup completed
+2025-09-27 10:08:24 - data.grnn_data - INFO - __init__:65 - Sequential dataset: 1578 users with sequences
+2025-09-27 10:08:24 - data.grnn_data - INFO - __init__:65 - Sequential dataset: 2267 users with sequences
+2025-09-27 10:08:24 - data.grnn_data - INFO - _setup_sequential_data:252 - Sequential data processors created
+2025-09-27 10:08:24 - data.grnn_data - INFO - _analyze_sequences:267 - Sequence statistics:
+2025-09-27 10:08:24 - data.grnn_data - INFO - _analyze_sequences:268 -   Average length: 2.49
+2025-09-27 10:08:24 - data.grnn_data - INFO - _analyze_sequences:269 -   Median length: 2.00
+2025-09-27 10:08:24 - data.grnn_data - INFO - _analyze_sequences:270 -   Min/Max length: 2/3
+2025-09-27 10:08:24 - data.grnn_data - INFO - _analyze_sequences:271 -   Total sequences: 1578
+2025-09-27 10:08:24 - data.grnn_data - INFO - _setup_variant_specific:203 - GRNN data setup completed
+2025-09-27 10:08:24 - data.base_data - INFO - setup:630 - Data module setup completed
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:718 - === DATASET STATISTICS ===
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:719 - Users: 3,885
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:720 - Baskets: 14,609
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:721 - Items: 167
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:722 - Training U2B interactions: 4,612
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:723 - Training B2I interactions: 3,336
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:724 - Test B2I interactions: 3,932
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:725 - U2B sparsity: 0.9999
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:726 - B2I sparsity: 0.9986
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:727 - U2I sparsity: 0.9949
+2025-09-27 10:08:24 - data.base_data - INFO - log_statistics:728 - ===========================
+2025-09-27 10:08:24 - utils.reproducibility - INFO - setup_multi_gpu_environment:213 - Auto-detecting multi-GPU configuration...
+2025-09-27 10:08:24 - utils.reproducibility - INFO - setup_multi_gpu_environment:216 - CUDA not available. Auto-disabling multi-GPU training.
+2025-09-27 10:08:24 - trainer.trainer - INFO - setup_directories:97 - Output directory: pytorch_pipeline/outputs
+2025-09-27 10:08:24 - trainer.trainer - INFO - __init__:84 - Trainer initialized for GRNN variant (single GPU/CPU)
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:76 - PredictionAnalyzer initialized (enabled: True)
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:78 - Will analyze up to 50 examples
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:79 - Will show top-K for K=[5, 10, 20]
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:103 - [history] epoch CSV will be written to: pytorch_pipeline/outputs/prediction_analysis/epoch_history_grnn_20250927_100824.csv
+2025-09-27 10:08:24 - evaluator.evaluator - INFO - __init__:72 - Evaluator initialized with metrics: ['recall', 'precision', 'ndcg', 'hit_ratio']
+2025-09-27 10:08:24 - evaluator.evaluator - INFO - __init__:73 - Top-K values: [5, 10, 20, 50]
+2025-09-27 10:08:24 - __main__ - INFO - run_testing:220 - ==================================================
+2025-09-27 10:08:24 - __main__ - INFO - run_testing:221 - STARTING TESTING PIPELINE
+2025-09-27 10:08:24 - __main__ - INFO - run_testing:222 - ==================================================
+2025-09-27 10:08:24 - __main__ - INFO - run_testing:238 - Using latest checkpoint: pytorch_pipeline/outputs/checkpoints/final_model.pth
+2025-09-27 10:08:24 - models.base_model - INFO - _init_embeddings:139 - Initialized embedding layers
+2025-09-27 10:08:24 - models.components - INFO - __init__:159 - Intent convolution: 5 intents, 64 -> 64
+2025-09-27 10:08:24 - models.components - INFO - __init__:159 - Intent convolution: 5 intents, 64 -> 64
+2025-09-27 10:08:24 - models.components - INFO - __init__:159 - Intent convolution: 5 intents, 64 -> 64
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _init_intent_conv_layers:101 - Created 3 intent convolution layers
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _init_prediction_layers:149 - Prediction layers initialized
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _process_adjacency_matrices:165 - Converted norm_adj_u2b to sparse tensor: torch.Size([3885, 14609])
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _process_adjacency_matrices:165 - Converted norm_adj_b2i to sparse tensor: torch.Size([14609, 167])
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _process_adjacency_matrices:165 - Converted norm_adj_combined to sparse tensor: torch.Size([18661, 18661])
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - _init_variant_components:84 - MITGNN components initialized with algorithm: intent_conv
+2025-09-27 10:08:24 - models.components - INFO - __init__:501 - Sequential encoder: LSTM, hidden_dim=64, bidirectional=False
+2025-09-27 10:08:24 - models.components - INFO - __init__:501 - Sequential encoder: LSTM, hidden_dim=64, bidirectional=False
+2025-09-27 10:08:24 - models.grnn_model - INFO - _init_sequential_components:111 - Sequential components initialized
+2025-09-27 10:08:24 - models.grnn_model - INFO - _init_grnn_prediction_layers:136 - GRNN prediction layers initialized
+2025-09-27 10:08:24 - models.grnn_model - INFO - _init_variant_components:75 - GRNN components initialized
+2025-09-27 10:08:24 - models.base_model - INFO - __init__:62 - Initialized GRNN model
+2025-09-27 10:08:24 - models.base_model - INFO - __init__:63 - Users: 3885, Baskets: 14609, Items: 167
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - __init__:61 - MITGNN initialized with 5 intents, sigma=0.9
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - __init__:62 - Prediction method: dot_product
+2025-09-27 10:08:24 - models.mitgnn_model - INFO - __init__:63 - Explicit regularization: False
+2025-09-27 10:08:24 - models.grnn_model - INFO - __init__:60 - GRNN initialized with LSTM RNN, hidden_dim=64
+2025-09-27 10:08:24 - trainer.trainer - INFO - _create_model:164 - Created GRNN model
+2025-09-27 10:08:24 - trainer.trainer - INFO - log_model_info:191 - Model: GRNNModel
+2025-09-27 10:08:24 - trainer.trainer - INFO - log_model_info:192 - Total parameters: 1,456,969
+2025-09-27 10:08:24 - trainer.trainer - INFO - log_model_info:194 - Trainable parameters: 1,456,969
+2025-09-27 10:08:24 - trainer.trainer - INFO - _create_optimizer:215 - Created Adam optimizer with lr=0.0001
+2025-09-27 10:08:24 - utils.schedulers - INFO - create_scheduler:263 - Created WarmupCosineAnnealingLR scheduler (warmup_epochs=5, max_epochs=200, eta_min=1e-05)
+2025-09-27 10:08:24 - trainer.trainer - INFO - _create_criterion:240 - Using BPR (Bayesian Personalized Ranking) loss
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:76 - PredictionAnalyzer initialized (enabled: True)
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:78 - Will analyze up to 50 examples
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:79 - Will show top-K for K=[5, 10, 20]
+2025-09-27 10:08:24 - evaluator.prediction_analyzer - INFO - __init__:103 - [history] epoch CSV will be written to: pytorch_pipeline/outputs/prediction_analysis/epoch_history_grnn_20250927_100824.csv
+2025-09-27 10:08:24 - trainer.trainer - INFO - setup:140 - Trainer setup completed
+2025-09-27 10:08:24 - trainer.trainer - INFO - load_checkpoint:886 - Loaded checkpoint from epoch 69
+2025-09-27 10:08:24 - trainer.trainer - INFO - __enter__:121 - Starting: Evaluation (test)
+2025-09-27 10:08:25 - trainer.trainer - INFO - _evaluate_with_full_ranking:546 - Built training item mapping for 1668 users
+2025-09-27 10:08:49 - trainer.trainer - INFO - _evaluate_with_full_ranking:578 - Found 1757 unique user-basket pairs for evaluation
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - analyze_predictions:161 - Analyzing predictions for 1757 examples (test mode)
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - __enter__:121 - Starting: Prediction analysis (test)
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - __exit__:128 - Completed: Prediction analysis (test) (took 0.00s)
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:267 - === PREDICTION ANALYSIS SUMMARY (TEST) ===
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:276 - Ground truth items per example: avg=2.2, min=1, max=3
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:282 - Epoch range: 69 - 69
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:300 - Top-5: avg_hits=0.4, avg_recall=0.163, examples_with_hits=17/50
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:300 - Top-10: avg_hits=0.5, avg_recall=0.253, examples_with_hits=24/50
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _log_analysis_summary:300 - Top-20: avg_hits=0.8, avg_recall=0.363, examples_with_hits=29/50
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _save_analysis_to_file:382 - Saved prediction analysis to: pytorch_pipeline/outputs/prediction_analysis/predictions_test_grnn_20250927_100824.json
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _save_summary_statistics:429 - Saved summary statistics to: pytorch_pipeline/outputs/prediction_analysis/summary_test_grnn_20250927_100824.csv
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - show_detailed_examples:321 - === DETAILED PREDICTION EXAMPLES (TEST) ===
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:333 - 
+--- Example 1 (next-basket prediction) ---
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:334 - User ID: 0, Basket ID: 3
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:338 - Ground Truth (3 items): ['0', '64', '4']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-5 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['3', '4', '37', '17', '21']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (1): ['4']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.333, Precision=0.200
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-10 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['3', '4', '37', '17', '21', '0', '23', '16', '73', '6']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (2): ['4', '0']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.667, Precision=0.200
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-20 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['3', '4', '37', '17', '21', '0', '23', '16', '73', '6', '2', '19', '70', '69', '18', '113', '49', '11', '68', '22']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (2): ['4', '0']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.667, Precision=0.100
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:333 - 
+--- Example 2 (next-basket prediction) ---
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:334 - User ID: 2, Basket ID: 12
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:338 - Ground Truth (3 items): ['33', '2', '3']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-5 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '37', '17']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (1): ['3']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.333, Precision=0.200
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-10 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '37', '17', '21', '0', '23', '16', '6']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (1): ['3']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.333, Precision=0.100
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-20 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '37', '17', '21', '0', '23', '16', '6', '73', '2', '19', '69', '70', '18', '49', '113', '68', '24']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (2): ['3', '2']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.667, Precision=0.100
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:333 - 
+--- Example 3 (next-basket prediction) ---
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:334 - User ID: 3, Basket ID: 15
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:338 - Ground Truth (3 items): ['65', '3', '70']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-5 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '17', '21']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (1): ['3']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.333, Precision=0.200
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-10 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '17', '21', '0', '23', '16', '73', '6']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (1): ['3']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.333, Precision=0.100
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:352 - 
+Top-20 Predictions:
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:354 -   Predicted: ['1', '4', '3', '17', '21', '0', '23', '16', '73', '6', '2', '19', '69', '70', '49', '18', '11', '113', '68', '22']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:360 -   ✓ Hits (2): ['3', '70']
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - _show_single_example:363 -   Metrics: Recall=0.667, Precision=0.100
+2025-09-27 10:08:51 - evaluator.prediction_analyzer - INFO - show_detailed_examples:327 - ============================================================
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - __enter__:121 - Starting: Computing test metrics
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:559 - === TEST METRICS SUMMARY ===
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - recall@10: 0.2954
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - recall@20: 0.4358
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - ndcg@10: 0.1939
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - ndcg@20: 0.2319
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - hit_ratio@10: 0.5117
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - hit_ratio@20: 0.6705
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - precision@10: 0.0640
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:561 - precision@20: 0.0475
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - compute_ranking_metrics:562 - ===================================
+2025-09-27 10:08:51 - evaluator.evaluator - INFO - __exit__:128 - Completed: Computing test metrics (took 0.08s)
+2025-09-27 10:08:51 - trainer.trainer - INFO - _evaluate_with_full_ranking:663 - TEST Loss: 0.5653
+2025-09-27 10:08:51 - trainer.trainer - INFO - __exit__:128 - Completed: Evaluation (test) (took 26.99s)
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:251 - ==================================================
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:252 - TESTING RESULTS
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:253 - ==================================================
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - recall@10: 0.2954
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - recall@20: 0.4358
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - ndcg@10: 0.1939
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - ndcg@20: 0.2319
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - hit_ratio@10: 0.5117
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - hit_ratio@20: 0.6705
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - precision@10: 0.0640
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - precision@20: 0.0475
+2025-09-27 10:08:51 - __main__ - INFO - run_testing:260 - test_loss: 0.5653
+2025-09-27 10:08:51 - __main__ - INFO - main:325 - Pipeline completed successfully

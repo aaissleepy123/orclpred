@@ -1,0 +1,22 @@
+# TGN Next-Basket Prediction (Compact Config)
+base_config: "base/mitgnn_base.yaml"
+
+# Override only what's different from base
+data:
+  data_path: "/home/datascience/BasketPrediction/data/DataPreparationandTransformation/multimodal_data/data/multimodalwithres"
+  within_basket: true  # Next-basket prediction
+
+evaluation:
+  prediction_analysis:
+    enabled: true
+    save_history: true
+    
+model: 
+  embed_size: 256
+  layer_sizes: [256, 256, 256, 256]
+  
+training:
+  lr: 0.00003                        
+  epochs: 200                          
+
+# All MITGNN settings inherited from base/tgn_base.yaml
